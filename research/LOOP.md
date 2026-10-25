@@ -56,7 +56,7 @@
   render in the main document. This implementation worker did not control Aside.
   Full app release and Google approval remain separate, pending milestones.
 
-## Optional external AI keys — local copy update, not deployed
+## Optional external AI keys — copy update and deployment
 
 - Updated home title/description context, hero, pricing/value copy, default-mode
   diagram caption, FAQ and a new provider section. Default on-device use remains
@@ -80,6 +80,17 @@
   Aside's Page API did not support setViewportSize, so a new mobile-width visual
   check was not completed in this pass. Screenshots stayed outside Git.
 - These are ordinary local site checks, not original-product REA evidence.
-  No commit, push or deployment was performed. Next: root reviews copy with final
-  app behavior, updates Google verification materials for the optional external
-  data flow, and handles publication separately.
+  At the initial review no commit/push/deployment had been performed. Root then
+  reviewed the diff and authorized deployment within the existing user scope.
+- Published content commit `ac140f9a513b8887bc7eb847c092feb72563d585` to main.
+  GitHub Pages latest build matched that commit and reported `built` at
+  2026-10-25 07:25:04 UTC (16:25:04 KST), with no build error.
+- Public home and privacy returned HTTP200 and matched the committed source bytes.
+  Aside opened https://amamov.github.io/regna-site/?v=ac140f9 and followed the
+  provider-data link to the public privacy page. DOM and a desktop viewport capture
+  confirmed the default-mode distinction, provider options, external transfer/API
+  fees, development/TestFlight distinction and privacy text. Screenshots stayed
+  outside Git. This does not validate the app's live provider calls or Google review.
+- Next: keep disclosures synchronized with final app behavior and future release
+  status; root is updating the Google verification materials for optional external
+  processing. The unfinished mobile-width check remains recorded above.
