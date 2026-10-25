@@ -18,3 +18,16 @@
   branding, navigation, contact link and copyright. Pages status: built.
 - Source and filenames scanned: no previous product-name occurrences.
 - Repository history is preserved; earlier commits retain their historical names.
+
+## Practical agent positioning / original artwork
+- Removed friendship/character-choice sales copy, captions and social metadata.
+- Hero, use cases, three value propositions and FAQ now emphasize practical personal
+  AI, free/no subscription, on-device inference and locally controlled private data.
+- Explicit beta-development status and limits on phone/booking/payment features.
+- Original PNG copied unchanged from owner's specified source; hashes match.
+- Desktop and 390px mobile viewport visually inspected through Aside; privacy FAQ
+  expansion, local links/anchors and absence of retired friendship copy checked.
+- Mobile leading sentence shortened after visual review to avoid an orphaned “AI”.
+- Local preview restarted after folder rename: http://127.0.0.1:5410.
+- Public promotion analysis is bounded to official home, store and company profile;
+  complete paid/social marketing coverage and conversion performance remain unknown.
