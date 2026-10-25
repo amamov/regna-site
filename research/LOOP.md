@@ -1,6 +1,6 @@
 # Website delivery — 2026-10-25
 
-- Published https://amamov.github.io/pinch-site/ via GitHub Pages, main/root.
+- Published https://amamov.github.io/regna-site/ via GitHub Pages, main/root.
 - Confirmed Pages build status `built` and public home/privacy pages load.
 - Aside account u0 (ysangsuk78@gmail.com) used for actual DOM and visual review.
 - Desktop visual review and 390px iframe mobile viewport reviewed. Main CTA and FAQ
