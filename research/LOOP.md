@@ -48,7 +48,10 @@
 - HTML structure, required data-flow text, absence of active embeds/forms,
   local preview/source byte equality and git diff checks passed. Local URL:
   http://127.0.0.1:5410/privacy.html. Source review is not an original-app REA check.
-- GitHub Pages deployment and published byte equality are checked after push.
-  Aside browser review is handed to the connector-catalog worker, which owns the
-  browser; this worker did not control it. Full app release and Google approval
-  remain separate, pending validation milestones.
+- Commit b897c09 deployed successfully (Pages status `built`); public privacy URL
+  returned HTTP 200 and exactly matched source bytes. Review URL:
+  https://amamov.github.io/regna-site/privacy.html?v=b897c09.
+- Connector-catalog worker independently opened that public URL in Aside and
+  confirmed the Calendar/Drive, storage/deletion and authorization distinctions
+  render in the main document. This implementation worker did not control Aside.
+  Full app release and Google approval remain separate, pending milestones.
