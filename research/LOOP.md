@@ -34,3 +34,21 @@
 - Public deployment verified: updated HTML and original image hash match served files.
   Existing browser cache initially retained old HTML; versioned stylesheet added so
   the updated layout does not reuse stale CSS. A versioned page URL is used for review.
+
+## Google Calendar / Drive privacy disclosure — 2026-10-25
+- Updated privacy.html against the current development app's GoogleAccess,
+  GoogleServiceConnectionView, ServiceConnectionsView, GoogleChatQuery,
+  ChatController, LocalStore and archive/settings deletion code.
+- Disclosed per-service permission requests, primary-calendar event fields,
+  Drive metadata/name-prefix search, direct Google query traffic, temporary
+  service-screen results versus persisted chat results, local AI context use,
+  separate conversation/memory/PDF deletion and device sign-out versus Google
+  permission revocation. Kept beta and unverified-live-service status explicit.
+- No account data, credentials, tokens, analytics or new scripts were added.
+- HTML structure, required data-flow text, absence of active embeds/forms,
+  local preview/source byte equality and git diff checks passed. Local URL:
+  http://127.0.0.1:5410/privacy.html. Source review is not an original-app REA check.
+- GitHub Pages deployment and published byte equality are checked after push.
+  Aside browser review is handed to the connector-catalog worker, which owns the
+  browser; this worker did not control it. Full app release and Google approval
+  remain separate, pending validation milestones.
