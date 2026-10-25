@@ -31,3 +31,6 @@
 - Local preview restarted after folder rename: http://127.0.0.1:5410.
 - Public promotion analysis is bounded to official home, store and company profile;
   complete paid/social marketing coverage and conversion performance remain unknown.
+- Public deployment verified: updated HTML and original image hash match served files.
+  Existing browser cache initially retained old HTML; versioned stylesheet added so
+  the updated layout does not reuse stale CSS. A versioned page URL is used for review.
