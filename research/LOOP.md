@@ -55,3 +55,31 @@
   confirmed the Calendar/Drive, storage/deletion and authorization distinctions
   render in the main document. This implementation worker did not control Aside.
   Full app release and Google approval remain separate, pending milestones.
+
+## Optional external AI keys — local copy update, not deployed
+
+- Updated home title/description context, hero, pricing/value copy, default-mode
+  diagram caption, FAQ and a new provider section. Default on-device use remains
+  distinct from optional OpenAI/Claude/Google Gemini/Regnax API use and provider fees.
+- Updated privacy.html: explicit provider choice, direct transmission of included
+  conversation/memory/service-page context, possible inclusion of stored Google
+  results, device-only non-synchronizing Keychain, key checks without conversation,
+  local deletion versus provider revocation, and already-transmitted data handling.
+  Google OAuth and Google Gemini API keys are separate credentials/permissions.
+- Checked current RemoteInferenceSession, WebAgent, settings and Keychain source.
+  No app files were changed; no real keys, provider accounts or physical device
+  were accessed.
+- Existing TestFlight 0.1.0 (2) is explicitly distinguished from these development
+  features. No claim that all providers have passed live end-to-end validation.
+- Reused the existing loopback preview server (explicit --directory regna-site).
+  Verified served HTML matches source, internal links/anchors and unique IDs,
+  absence of scripts/forms/iframes, and git diff whitespace checks.
+- Aside opened http://127.0.0.1:5410/ and reviewed the actual desktop rendering,
+  expanded the external-transmission FAQ, and followed its privacy link to
+  http://127.0.0.1:5410/privacy.html. Updated sections rendered correctly.
+  Aside's Page API did not support setViewportSize, so a new mobile-width visual
+  check was not completed in this pass. Screenshots stayed outside Git.
+- These are ordinary local site checks, not original-product REA evidence.
+  No commit, push or deployment was performed. Next: root reviews copy with final
+  app behavior, updates Google verification materials for the optional external
+  data flow, and handles publication separately.
