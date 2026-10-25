@@ -11,3 +11,10 @@
 - Local preview: http://127.0.0.1:5410, Python server.
 - Next: insert verified TestFlight link and update privacy page to match released app.
 - No original private research, credentials or analytics included.
+
+## Regna rename verification
+- GitHub repository renamed to amamov/regna-site, local folder regna-site.
+- Public page at /regna-site/ verified in Aside with Regna Korean/English title,
+  branding, navigation, contact link and copyright. Pages status: built.
+- Source and filenames scanned: no previous product-name occurrences.
+- Repository history is preserved; earlier commits retain their historical names.
